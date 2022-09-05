@@ -2,6 +2,6 @@
 
 var obj = JSON.parse($response.body);
 var url = $request.url;
-obj.data.gold = '500';
+obj.data.gold = '99999.99';
 
 $done({ body: JSON.stringify(obj) });
